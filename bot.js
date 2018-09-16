@@ -2554,7 +2554,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("389090790984515594").send(
+client.users.get("388357326614167563").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2875,7 +2875,7 @@ client.on("message", (message) => {
 });  
 
 const sWlc = {}
-const premium = ['389090790984515594']
+const premium = ['388357326614167563']
 client.on('message', message => {
 var prefix = "!";
 if(message.channel.type === "dm") return;
