@@ -1238,7 +1238,7 @@ var heroo = new Discord.RichEmbed()
 .setTimestamp(new Date())
 .setThumbnail(client.user.avatarURL)
 .setTitle('X_PRO Bot Info')
-.setURL('https://discordapp.com/oauth2/authorize?client_id=471464656242737183&permissions=2080898225&scope=bot')
+setURL('https://discordapp.com/oauth2/authorize?client_id=483962495124504576&permissions=2080898225&scope=bot')
 .setAuthor(client.user.username,client.user.avatarURL)
 .addField("**البرفكس** :",`**[ ${prefix} ]**`,true)
 .addField("**السيرفرات** :","**[ "+client.guilds.size+" ]**",true)
@@ -2773,7 +2773,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/yDHQZhC**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/hbQTcb9**")
      
      
   message.channel.sendEmbed(embed);
